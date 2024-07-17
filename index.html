@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Guess Game</title>
+    <style>
+        .color-block {
+            display: inline-block;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 20px;
+        }
+
+        #rgb-color {
+            font-size: 30px;
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+<h1>Color Guess Game</h1>
+<p id="rgb-color">RGB(255, 0, 0)</p>
+<p id="status">Start Guessing!</p>
+<div>
+    <div class="color-block" style="background-color: rgb(255, 0, 0)"></div>
+    <div class="color-block" style="background-color: rgb(255, 255, 0)"></div>
+    <div class="color-block" style="background-color: rgb(0, 255, 0)"></div>
+    <div class="color-block" style="background-color: rgb(0, 255, 255)"></div>
+    <div class="color-block" style="background-color: rgb(0, 0, 255)"></div>
+    <div class="color-block" style="background-color: rgb(255, 0, 255)"></div>
+</div>
+<button id="restart">Restart</button>
+<script src="script.js"></script>
+</body>
+</html>
